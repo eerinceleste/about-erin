@@ -1,10 +1,14 @@
-.resize {
-    width: 300px;
-    height: auto;
+h1, h2, h3, p {
+    font-family: "Lucida Handwriting", "Courier New", monospace;
 }
 
-.content {
-    max-width: 500px;
-    margin: auto;
-    text-align: center;
+.selfie {
+    display: inline-block;
+    width: 30%;
+}
+
+.mainContent {
+    width: 65%;
+    display: inline-block;
+    color: deeppink;
 }
