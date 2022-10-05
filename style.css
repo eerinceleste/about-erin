@@ -1,14 +1,84 @@
-h1, h2, h3, p {
-    font-family: "Lucida Handwriting", "Courier New", monospace;
+h1, h2, h3, h4, h5, p {
+    font-family: "Arial";
+    color: black;
 }
 
+h1, h2, h3, h4 {
+    color: pink;
+}
+
+.container {
+    width: 50vw;
+    /* border: pink 1px solid; */
+    margin-left: auto;
+    margin-right: auto;
+
+}
 .selfie {
+    margin-top: 15px;
+    width: 10vw;
+    border-radius: 10px;
+    display: block;
+    margin-right: auto;
+    align-content: center;
+    margin-left: auto;
+
+}
+
+.introSection {
+    width: 12vw;
+    vertical-align: top;
     display: inline-block;
-    width: 30%;
+    text-align: center;
+    padding: 10px;
+    /* border: black 1px solid; */
+    background-color: white;
+    filter: drop-shadow(0 0 0.75rem lightgrey);
+    border-radius: 5px;
+    margin-top: 20px;
+
 }
 
 .mainContent {
-    width: 65%;
+    width: 35vw;
     display: inline-block;
-    color: deeppink;
+    /* border: purple 1px solid; */
+    height: 100vh;
+}
+
+.careerSection {
+    display: inline-block;
+    padding: 10px;
+    /* border: yellow 1px solid; */
+    width: 30vw;
+    background-color: white;
+    filter: drop-shadow(0 0 0.75rem lightgrey);
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.backgroundSection {
+    display: inline-block;
+    padding: 10px;
+    /* border: blue 1px solid; */
+    width: 30vw;
+    background-color: white;
+    filter: drop-shadow(0 0 0.75rem lightgrey);
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.hobbiesSection {
+    display: inline-block;
+    padding: 10px;
+    /* border: green 1px solid; */
+    width: 30vw;
+    background-color: white;
+    filter: drop-shadow(0 0 0.75rem lightgrey);
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
